@@ -26,16 +26,16 @@ cd Keyword-Extractor
 npm install
 ```
 
-4. Create a `.env` file in the root directory of the project and add your OpenAI API key:
+4. Create a `.env` file in the root directory of the project and add your OpenAI API url and key:
 
 ```
-REACT_APP_OPENAI_API_KEY=your_api_key_here
-```
+VITE_OPENAI_API_KEY='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'
+VITE_OPENAI_API_URL='https://api.openai.com/v1/completions'```
 
 5. Start the development server:
 
 ```
-npm start
+npm run dev
 ```
 
 The application will now be available at `http://localhost:3000`.
