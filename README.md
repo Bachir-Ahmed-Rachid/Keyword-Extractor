@@ -29,8 +29,9 @@ npm install
 4. Create a `.env` file in the root directory of the project and add your OpenAI API url and key:
 
 ```
-VITE_OPENAI_API_KEY='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'
-VITE_OPENAI_API_URL='https://api.openai.com/v1/completions'```
+VITE_OPENAI_API_KEY='...'
+VITE_OPENAI_API_URL='https://....'
+```
 
 5. Start the development server:
 
